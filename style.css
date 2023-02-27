@@ -38,4 +38,16 @@ body{
     border-bottom: 2px solid #7CBD3E;
     outline: none;
     color: #2d5a03;
+    background: aliceblue;
+}
+
+#result{
+    margin-top: 1.25em;
+}
+
+.container .flag-img{
+    display: block;
+    width: 45%;
+    min-width: 7.5em;
+    margin: 1.8em auto 1.2em auto;
 }

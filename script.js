@@ -8,6 +8,12 @@ searchBtn.addEventListener('click', () => {
     let finalUrl = `https://restcountries.com/v3.1/name/${countryName}?fullText=true`;
 
     console.log(finalUrl);
-    
-    fetch(finalUrl).then(res => res.json()).then(data => {console.log(data)})
+
+    fetch(finalUrl).then(res => res.json()).then(data => {
+        console.log(data[0])
+        result.innerHTML = `
+        <img src="${data[0].flags.svg}" class= "flag-img">
+
+        `
+    })
 })
