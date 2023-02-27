@@ -5,6 +5,7 @@
 }
 body{
     background-color: #7CBD3E;
+    font-family: "poppins";
 }
 .container{
     background-color: aliceblue;
@@ -37,7 +38,7 @@ body{
     border: none;
     border-bottom: 2px solid #7CBD3E;
     outline: none;
-    color: #2d5a03;
+    color: #31382b;
     background: aliceblue;
 }
 
@@ -50,4 +51,30 @@ body{
     width: 45%;
     min-width: 7.5em;
     margin: 1.8em auto 1.2em auto;
+}
+
+.container h2{
+    font-weight: 600;
+    color: #31382b;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.8em;
+}
+
+.data-wrapper{
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+}
+
+.container h4{
+    display: inline;
+    font-weight: 500;
+    color: #31382b;
+}
+.container h3{
+    text-align: center;
+}
+.container span{
+    color:#6f855d
 }
