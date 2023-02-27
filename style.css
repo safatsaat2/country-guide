@@ -74,6 +74,9 @@ body{
 }
 .container h3{
     text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: red;
 }
 .container span{
     color:#6f855d
